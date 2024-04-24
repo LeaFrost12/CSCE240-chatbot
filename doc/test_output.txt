@@ -1,0 +1,40 @@
+Instructions for running:
+For running the chatbot:
+    While in the directory "my-chatbot", run "python ./"
+For running debug mode:
+    While in the directory "my-chatbot", run:
+        python ./ -summary
+        python ./ -showchat [chat number]
+        python ./ -showchat-summary [chat number]
+
+Supported commands/outputs (not case sensitive):
+
+Command: "What is [apple's/amazon's] business?"
+Output: Content from Item 1
+
+Command:"What are [apple's/amazon's] risk factors?"
+Output: Content from Item 1A
+
+Command: "What are [apple's/amazon's] properties?"
+Output: Content from Item 2
+
+Command:"What are [apple's/amazon's] legal proceedings?"
+Output: Content from Item 3
+
+Command:"What is [apple's/amazon's] market?"
+Output: Content from Item 5
+
+Command:"What are [apple's/amazon's] disclosures?"
+Output: Content from Item 7A
+
+Command:"Who are [apple/amazon's] directors?"
+Output: Content from Item 10
+
+Command:"What is the compensation of [apple's/amazon's] executives?"
+Output: Content from Item 11
+
+Command:"What are [apple's/amazon's] statements?"
+Output: Content from Item 15
+
+Command:"Give me all information for [apple/amazon]"
+Output: Contents from all items.

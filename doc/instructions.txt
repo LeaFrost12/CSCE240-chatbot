@@ -1,0 +1,12 @@
+Lea Frost
+Instructions for use
+CSCE 240
+
+Instructions for running: 
+For running the chatbot:
+    While in the directory "my-chatbot", run "python ./"
+For running debug mode:
+    While in the directory "my-chatbot", run:
+        python ./ -summary
+        python ./ -showchat [chat number]
+        python ./ -showchat-summary [chat number]

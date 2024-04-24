@@ -1,0 +1,84 @@
+Testing of system interaction:
+
+User command:
+    python ./
+Interaction:
+    Enter the question you would like to ask or enter "quit" or "q" to exit:
+    >what questions can I ask?
+
+    Ask about business, risk factors, properties, legal proceedings, market, directors,
+    disclosures, executive compensation, statements, all information about a company,
+    or usage stats
+
+    >what are the statements
+
+    WHAT ARE THE STATEMENTS - I do not know this information.
+    Please include the business name and try again. You can ask about Apple or Amazon.
+    For information on what questions you can ask, ask me "What questions can I ask?"
+    
+    >what companies are supported?
+
+    Supported companies are Apple and Amazon
+
+    Enter the question you would like to ask or enter "quit" or "q" to exit:
+    >what is amazon's business?
+
+    The answer has been written in an output file.
+
+    Enter the question you would like to ask or enter "quit" or "q" to exit:
+    >show usage stats
+
+    There are 12 chats to date with user asking 74 times and system reponding 74 times. Total duration is 1009 seconds.
+
+    Enter the question you would like to ask or enter "quit" or "q" to exit:
+    >quit
+
+    You have terminated the chat. Goodbye.
+
+User command:
+    python ./ -summary    
+System output:
+    There are 3 chats to date with user asking 9 times and system reponding 9 times. Total duration is 61 seconds.
+
+
+User command:
+    python ./ -showchat 3
+System output:
+    Chat 3 is:
+
+    <USER INPUT>:
+
+    Amazon executive compensation
+
+    <SYSTEM OUTPUT>:
+    Item 11.        Executive Compensation
+
+    Information required by Item 11 of Part III is included in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
+
+    <USER INPUT>:
+
+    hi how are you?
+
+    <SYSTEM OUTPUT>:
+
+    HI HOW ARE YOU? - I do not know this information.
+    Please include the business name and try again. You can ask about Apple or Amazon.
+
+    <USER INPUT>:
+
+    quit
+
+    <SYSTEM OUTPUT>:
+    You have terminated the chat. Goodbye.
+
+
+User command:
+    python ./ -showchat-summary 2
+System output:
+    Chat 2 has user asking 5 times and system responding 5 times. Total duration is 32 seconds
+
+
+User command:
+    python ./ -showchat-summary 10
+System output:
+    ERROR: There are 3 sessions. Please choose a valid number.
