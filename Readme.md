@@ -1,6 +1,6 @@
 Author: Lea Frost
 
-Code written for CSCE 240, PA6
+Code written for CSCE 240H
 
 Code reuse from Tarun Ramkumar - WebScraper.py
 
