@@ -4,6 +4,8 @@ Code written for CSCE 240H
 
 Code reuse from Tarun Ramkumar - WebScraper.py
 
+Demo video: [https://youtu.be/Ggu_6fOzRIg?si=Ey4N_GuQCw8RV9bz](url)
+
 Description:
 
     This project answers user questions about a business based on
