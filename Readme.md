@@ -1,4 +1,4 @@
-#CSCE 240H Final Chatbot
+# CSCE 240H Final Chatbot
 
 Author: Lea Frost
 
@@ -6,7 +6,7 @@ Code reuse from Tarun Ramkumar - WebScraper.py
 
 Demo video: [https://youtu.be/Ggu_6fOzRIg?si=Ey4N_GuQCw8RV9bz](https://youtu.be/Ggu_6fOzRIg?si=Ey4N_GuQCw8RV9bz)
 
-##Description:
+## Description:
 
 This project answers user questions about a business based on
 
@@ -17,15 +17,15 @@ Apple and Amazon, but can work for other companies.
 It also reports interaction statistics when requested.
 
 
-##Instructions:
+## Instructions:
 
-###Running the chatbot:
+### Running the chatbot:
 
 While in the directory "my-chatbot", run:
 
     "python ./"
     
-###Running debug mode/iteraction stats:
+### Running debug mode/iteraction stats:
 
 While in the directory "my-chatbot"
 
@@ -41,7 +41,7 @@ To see the summary statistics of a specific chat, run:
         
         python ./ -showchat-summary [chat number]
 
-##Layout:
+## Layout:
 '''
 my-chatbot
 
