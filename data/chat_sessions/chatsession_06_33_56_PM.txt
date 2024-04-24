@@ -1,0 +1,23 @@
+<USER INPUT>:
+
+what questions can i ask?
+
+<SYSTEM OUTPUT>:
+Ask about business, risk factors, properties, legal proceedings, market, directors,
+disclosures, executive compensation, statements, all information about a company, 
+or usage stats
+
+<USER INPUT>:
+
+what companies are supported?
+
+<SYSTEM OUTPUT>:
+Supported companies are Apple and Amazon
+
+<USER INPUT>:
+
+quit
+
+<SYSTEM OUTPUT>:
+You have terminated the chat. Goodbye.
+
