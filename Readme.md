@@ -20,6 +20,7 @@ Instructions:
 For running the chatbot:
 
     While in the directory "my-chatbot", run "python ./"
+    
 For running debug mode/iteraction stats:
 
     While in the directory "my-chatbot", run:
