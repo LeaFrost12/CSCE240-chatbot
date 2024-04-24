@@ -41,39 +41,39 @@ To see the summary statistics of a specific chat, run:
 ```
 my-chatbot
 
-    __main__.py
+--- __main__.py
     
-    data
+--- data
+
+    --- chat sessions
+        
+        --- Contains saved chat sessions
+            
+    --- input
+        
+        --- Contains company 10k files
+            
+    --- output
+        
+        --- output.txt
+            
+    --- chat_statistics.csv
+        
+--- doc
     
-        chat sessions
+    --- report.txt
         
-            Contains saved chat sessions
-            
-        input
+    --- test_output.txt
         
-            Contains company 10k files
-            
-        output
-        
-            output.txt
-            
-        chat_statistics.csv
-        
-    doc
+--- src
     
-        report.txt
+    --- chatbot.py
         
-        test_output.txt
+    --- sessionlogger.py
         
-    src
-    
-        chatbot.py
-        
-        sessionlogger.py
-        
-        wordmatcher.py
+    --- wordmatcher.py
             
-        test
+--- test
         
-            test.txt
+    --- test.txt
 ```
