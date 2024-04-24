@@ -21,7 +21,7 @@ While in the directory "my-chatbot", run:
 
     "python ./"
     
-### Running debug mode/iteraction stats:
+### Running debug mode/interaction stats:
 
 While in the directory "my-chatbot"
 
