@@ -32,40 +32,40 @@ For running debug mode/iteraction stats:
 
 Layout:
 
-my-chatbot
-
-    __main__.py
+    my-chatbot
     
-    data
-    
-        chat sessions
+        __main__.py
         
-            Contains saved chat sessions
+        data
+        
+            chat sessions
             
-        input
-        
-            Contains company 10k files
+                Contains saved chat sessions
+                
+            input
             
-        output
-        
-            output.txt
+                Contains company 10k files
+                
+            output
             
-        chat_statistics.csv
+                output.txt
+                
+            chat_statistics.csv
+            
+        doc
         
-    doc
-    
-        report.txt
+            report.txt
+            
+            test_output.txt
+            
+        src
         
-        test_output.txt
+            chatbot.py
+            
+            sessionlogger.py
+            
+            wordmatcher.py
+            
+        test
         
-    src
-    
-        chatbot.py
-        
-        sessionlogger.py
-        
-        wordmatcher.py
-        
-    test
-    
-        test.txt
+            test.txt
