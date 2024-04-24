@@ -38,7 +38,7 @@ To see the summary statistics of a specific chat, run:
         python ./ -showchat-summary [chat number]
 
 ## Layout:
-'''
+```
 my-chatbot
 
     __main__.py
@@ -76,4 +76,4 @@ my-chatbot
         test
         
             test.txt
-'''
+```
