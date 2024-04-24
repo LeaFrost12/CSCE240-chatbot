@@ -15,7 +15,7 @@ Description:
     It also reports interaction statistics when requested.
 
 
-How to use:
+Instructions:
 
 For running the chatbot:
 
