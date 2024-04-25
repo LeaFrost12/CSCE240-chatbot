@@ -8,9 +8,7 @@ Demo video: [https://youtu.be/Ggu_6fOzRIg?si=Ey4N_GuQCw8RV9bz](https://youtu.be/
 
 ## Description:
 
-This project answers user questions about a business based on the business's 10k form. The program is built to work for Apple and Amazon, but can work for other companies. 
-
-It also reports interaction statistics when requested.
+This project answers user questions about a business based on the business's 10k form. The program is built to work for Apple and Amazon, but can work for other companies. It also reports interaction statistics when requested.
 
 
 ## Instructions:
