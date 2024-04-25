@@ -17,24 +17,26 @@ This project answers user questions about a business based on the business's 10k
 
 While in the directory "my-chatbot", run:
 
-    "python ./"
+```
+python ./
+```
     
 ### Running debug mode/interaction stats:
 
 While in the directory "my-chatbot"
 
 For summary of all chat sessions, run:
-    
-        python ./ -summary
-
+```    
+python ./ -summary
+```
 To see the contents of a specific chat, run:
-        
-        python ./ -showchat [chat number]
-
+```      
+python ./ -showchat [chat number]
+```
 To see the summary statistics of a specific chat, run:
-        
-        python ./ -showchat-summary [chat number]
-
+```     
+python ./ -showchat-summary [chat number]
+```
 ## Layout:
 ```
 my-chatbot
